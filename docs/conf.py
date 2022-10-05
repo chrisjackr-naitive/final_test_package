@@ -18,7 +18,6 @@ copyright = u"2022, Naitive"
 #    "autoapi.extension",
 extensions = [
     "myst_nb",
-    "sphinx_mdinclude",
     "sphinx.ext.napoleon",
     "sphinx.ext.viewcode",
     "sphinx.ext.autodoc"
