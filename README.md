@@ -48,7 +48,7 @@ No usage instructions.
 <br>
 
 ## Diagrams
-No diagrams currently.
+![300px-Yoshi_(character)](https://user-images.githubusercontent.com/102035064/194122686-ebe04cd1-35d5-4802-9d44-b1f3b3db5250.png)
 
 <br>
 <br>
