@@ -20,7 +20,8 @@ extensions = [
     "myst_nb",
     "sphinx.ext.napoleon",
     "sphinx.ext.viewcode",
-    "sphinx.ext.autodoc"
+    "sphinx.ext.autodoc",
+    "sphinx-mdinclude"
 ]
 napoleon_google_docstring = False
 
