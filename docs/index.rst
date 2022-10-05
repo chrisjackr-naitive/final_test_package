@@ -1,4 +1,5 @@
-.. include:: ../README.rst
+#.. include:: ../README.rst
+.. mdinclude:: ../README.md
 
 .. toctree::
    :maxdepth: 3
