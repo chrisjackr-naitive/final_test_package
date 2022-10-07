@@ -41,3 +41,4 @@ source_suffix = {
 #
 html_theme = "renku"
 add_module_names = False
+toc_object_entries_show_parents = "hide"
