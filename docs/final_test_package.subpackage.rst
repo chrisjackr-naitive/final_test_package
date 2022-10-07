@@ -1,13 +1,21 @@
-final_test_package.subpackage package
-=====================================
+final\_test\_package.subpackage package
+=======================================
 
 Submodules
 ----------
 
-final_test_package.subpackage.module2 module
---------------------------------------------
+final\_test\_package.subpackage.module2 module
+----------------------------------------------
 
 .. automodule:: final_test_package.subpackage.module2
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+final\_test\_package.subpackage.module3 module
+----------------------------------------------
+
+.. automodule:: final_test_package.subpackage.module3
    :members:
    :undoc-members:
    :show-inheritance:
@@ -15,7 +23,7 @@ final_test_package.subpackage.module2 module
 Module contents
 ---------------
 
-.. automodule:: new_package.subpackage
+.. automodule:: final_test_package.subpackage
    :members:
    :undoc-members:
    :show-inheritance:

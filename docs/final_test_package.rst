@@ -1,5 +1,5 @@
-final_test_package
-==================
+final\_test\_package package
+============================
 
 Subpackages
 -----------
@@ -13,8 +13,8 @@ Subpackages
 Submodules
 ----------
 
-final_test_package.module1 module
----------------------------------
+final\_test\_package.module1 module
+-----------------------------------
 
 .. automodule:: final_test_package.module1
    :members:
