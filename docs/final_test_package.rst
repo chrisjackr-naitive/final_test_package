@@ -18,10 +18,7 @@ Subpackages
 Submodules
 ----------
 
-final\_test\_package.module1 module
------------------------------------
+.. toctree::
+   :maxdepth: 4
 
-.. automodule:: final_test_package.module1
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   final_test_package.module1

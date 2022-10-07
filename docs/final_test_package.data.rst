@@ -9,10 +9,7 @@ final\_test\_package.data package
 Submodules
 ----------
 
-final\_test\_package.data.load\_data module
--------------------------------------------
+.. toctree::
+   :maxdepth: 4
 
-.. automodule:: final_test_package.data.load_data
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   final_test_package.data.load_data
