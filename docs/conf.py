@@ -26,7 +26,7 @@ extensions = [
 napoleon_google_docstring = False
 
 # sphinxcontrib.apidoc
-apidoc_module_dir = '../src'
+apidoc_module_dir = '../src/final_test_package'
 apidoc_output_dir = '.'
 apidoc_excluded_paths = []
 apidoc_separate_modules = True

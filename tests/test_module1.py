@@ -1,4 +1,4 @@
-from final_test_package.module1 import func1
+from final_test_package.module1 import plus
 
-def test_func1():
-    assert func1(4,3) == 7
+def test_plus():
+    assert plus(4,3) == 7

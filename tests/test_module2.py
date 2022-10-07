@@ -1,4 +1,4 @@
-from final_test_package.subpackage.module2 import func2
+from final_test_package.subpackage.module2 import minus
 
-def test_func2():
-    assert func2(4,3) == 1
+def test_minus():
+    assert minus(4,3) == 1
