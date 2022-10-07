@@ -20,9 +20,16 @@ extensions = [
     "myst_nb",
     "sphinx.ext.napoleon",
     "sphinx.ext.viewcode",
-    "sphinx.ext.autodoc"
+    "sphinx.ext.autodoc",
+    "sphinxcontrib.apidoc"
 ]
 napoleon_google_docstring = False
+
+# sphinxcontrib.apidoc
+apidoc_module_dir = '../src'
+apidoc_output_dir = '.'
+apidoc_excluded_paths = []
+apidoc_separate_modules = True
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -42,3 +49,9 @@ source_suffix = {
 html_theme = "renku"
 add_module_names = False
 toc_object_entries_show_parents = "hide"
+
+# Add any paths that contain custom static files (such as style sheets) here,
+# relative to this directory. They are copied after the builtin static files,
+# so a file named "default.css" will overwrite the builtin "default.css".
+html_static_path = ["_static"]
+html_css_files = ["style.css"]

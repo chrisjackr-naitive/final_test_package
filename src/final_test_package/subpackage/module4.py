@@ -1,4 +1,4 @@
-def divide(a, b):
+def power(a, b):
     """Summary line.
 
     Extended description of function.
@@ -16,4 +16,4 @@ def divide(a, b):
         Description of return value
 
     """
-    return a // b
+    return a ** b

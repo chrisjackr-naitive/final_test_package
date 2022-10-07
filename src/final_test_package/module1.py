@@ -1,4 +1,4 @@
-def func1(a, b):
+def plus(a, b):
     """Summary line.
 
     Extended description of function.
