@@ -1,6 +1,11 @@
 final\_test\_package.subpackage package
 =======================================
 
+.. automodule:: final_test_package.subpackage
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 Submodules
 ----------
 
@@ -16,14 +21,6 @@ final\_test\_package.subpackage.module3 module
 ----------------------------------------------
 
 .. automodule:: final_test_package.subpackage.module3
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-Module contents
----------------
-
-.. automodule:: final_test_package.subpackage
    :members:
    :undoc-members:
    :show-inheritance:
