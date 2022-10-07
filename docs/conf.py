@@ -40,3 +40,4 @@ source_suffix = {
 # a list of builtin themes.
 #
 html_theme = "renku"
+add_module_names = False
