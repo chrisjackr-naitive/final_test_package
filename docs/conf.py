@@ -30,6 +30,7 @@ apidoc_module_dir = '../src/final_test_package'
 apidoc_output_dir = '.'
 apidoc_excluded_paths = []
 apidoc_separate_modules = True
+apidoc_module_first = True
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
