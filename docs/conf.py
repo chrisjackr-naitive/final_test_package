@@ -25,6 +25,10 @@ extensions = [
 ]
 napoleon_google_docstring = False
 
+# sphinx.ext.autodoc
+add_module_names = False
+toc_object_entries_show_parents = "hide"
+
 # sphinxcontrib.apidoc
 apidoc_module_dir = '../src/final_test_package'
 apidoc_output_dir = '.'
@@ -32,9 +36,11 @@ apidoc_excluded_paths = []
 apidoc_separate_modules = True
 apidoc_module_first = True
 
+
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
+#
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 source_suffix = {
     '.rst': 'restructuredtext',
@@ -48,8 +54,6 @@ source_suffix = {
 # a list of builtin themes.
 #
 html_theme = "renku"
-add_module_names = False
-toc_object_entries_show_parents = "hide"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

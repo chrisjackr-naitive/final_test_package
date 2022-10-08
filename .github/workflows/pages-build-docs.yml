@@ -36,7 +36,13 @@ jobs:
           python -m pip install renku-sphinx-theme
           python -m pip install myst-nb
           python -m pip install sphinxcontrib.apidoc
+          python -m pip install m2r2
           python -m pip install .
+
+      # Convert README.md to README.rst
+      - name: Convert README.md
+        run: |
+          m2r2 ./README.md
      
       # Clean and build .html files from .rst
       - name: Make doc files
