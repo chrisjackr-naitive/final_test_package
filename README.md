@@ -2,11 +2,13 @@
 
 [![python-pytest](https://github.com/chrisjackr-naitive/final_test_package/actions/workflows/python-test.yml/badge.svg)](https://github.com/chrisjackr-naitive/final_test_package/actions/workflows/python-test.yml) [![pages-build-docs](https://github.com/chrisjackr-naitive/final_test_package/actions/workflows/pages-build-docs.yml/badge.svg)](https://github.com/chrisjackr-naitive/final_test_package/actions/workflows/pages-build-docs.yml) [![pages-build-deployment](https://github.com/chrisjackr-naitive/final_test_package/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/chrisjackr-naitive/final_test_package/actions/workflows/pages/pages-build-deployment)
 
+<br>
+
 ## Contents
-> - Description
-> - Installation
-> - Usage
-> - Diagrams
+> **Description**
+> **Installation**
+> **Usage**
+> **Diagrams**
 
 <br>
 
@@ -48,6 +50,6 @@ No usage instructions.
 <br>
 
 ## Diagrams
-![300px-Yoshi_(character)](https://user-images.githubusercontent.com/102035064/194122686-ebe04cd1-35d5-4802-9d44-b1f3b3db5250.png)#
+![300px-Yoshi_(character)](https://user-images.githubusercontent.com/102035064/194122686-ebe04cd1-35d5-4802-9d44-b1f3b3db5250.png)
 
 <br>
