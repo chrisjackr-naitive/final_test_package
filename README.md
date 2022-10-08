@@ -5,10 +5,10 @@
 <br>
 
 ## Contents
-> **Description** /
-> **Installation** /
-> **Usage** /
-> **Diagrams** /
+> **Description** \
+> **Installation** \
+> **Usage** \
+> **Diagrams** \
 
 <br>
 
