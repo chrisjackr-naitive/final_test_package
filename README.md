@@ -3,10 +3,10 @@
 [![python-pytest](https://github.com/chrisjackr-naitive/final_test_package/actions/workflows/python-test.yml/badge.svg)](https://github.com/chrisjackr-naitive/final_test_package/actions/workflows/python-test.yml) [![pages-build-docs](https://github.com/chrisjackr-naitive/final_test_package/actions/workflows/pages-build-docs.yml/badge.svg)](https://github.com/chrisjackr-naitive/final_test_package/actions/workflows/pages-build-docs.yml) [![pages-build-deployment](https://github.com/chrisjackr-naitive/final_test_package/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/chrisjackr-naitive/final_test_package/actions/workflows/pages/pages-build-deployment)
 
 ## Contents
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Diagrams](#diagrams)
+> - [Description](#description)
+> - [Installation](#installation)
+> - [Usage](#usage)
+> - [Diagrams](#diagrams)
 
 <br>
 
