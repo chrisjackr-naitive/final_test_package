@@ -26,8 +26,6 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-/docs/_build/
-/docs/_template/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -72,6 +70,10 @@ instance/
 
 # Sphinx documentation
 docs/_build/
+docs/_template/
+docs/_static/
+docs/NotebookDocumentation.ipynb
+docs/final_test_package*.rst
 
 # PyBuilder
 target/
