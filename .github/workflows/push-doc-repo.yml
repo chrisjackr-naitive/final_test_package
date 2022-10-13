@@ -49,17 +49,6 @@ jobs:
         run: |
           make -C docs clean
           make -C docs html
-        
-      # Init new repo in dist folder and commit generated files
-      - name: Commit built docs
-        run: |
-          cd docs/_build/html/
-          git init
-          touch .nojekyll
-          git add -A
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git commit -m "deploy documentation"
       
       # Force push file to DOCUMENTATION REPO branch
       - name: Push docs to DocRepo
