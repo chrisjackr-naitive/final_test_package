@@ -1,0 +1,7 @@
+final\_test\_package.subpackage.module4 module
+==============================================
+
+.. automodule:: final_test_package.subpackage.module4
+   :members:
+   :undoc-members:
+   :show-inheritance:
