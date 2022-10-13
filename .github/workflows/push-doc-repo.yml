@@ -1,0 +1,77 @@
+# This workflow builds and uploads documentation to gh-pages
+
+name: push-doc-repo
+
+on:
+#  push:
+#    branches: [ "main" ]
+#  pull_request:
+#    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  push-doc-repo:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # Setup python on virtual machine
+      - name: Setup python
+        uses: actions/setup-python@v4.2.0
+        with:
+          python-version: 3.9
+
+      # Install dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install -U sphinx
+          python -m pip install sphinx-rtd-theme
+          python -m pip install renku-sphinx-theme
+          python -m pip install myst-nb
+          python -m pip install sphinxcontrib.apidoc
+          python -m pip install m2r2
+          python -m pip install .
+
+      # Convert README.md to README.rst
+      - name: Convert README.md
+        run: |
+          m2r2 ./README.md
+     
+      # Clean and build .html files from .rst
+      - name: Make doc files
+        run: |
+          make -C docs clean
+          make -C docs html
+        
+      # Init new repo in dist folder and commit generated files
+      - name: Commit built docs
+        run: |
+          cd docs/_build/html/
+          git init
+          touch .nojekyll
+          git add -A
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "deploy documentation"
+      
+      # Force push file to DOCUMENTATION REPO branch
+      - name: Push docs to DocRepo
+        uses: cpina/github-action-push-to-another-repository@main
+        env: 
+          #SSH_DEPLOT_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source_directory: ./docs/_build/html/
+          destination-github-username: 'chrisjackr-naitive'
+          destination-repository-name: 'Documentation'
+          destination-repository-username: 'chrisjackr-naitive'
+          target-branch: main
+          target-directory: final_test_package/
+           
