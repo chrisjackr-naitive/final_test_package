@@ -68,7 +68,7 @@ jobs:
           #SSH_DEPLOT_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source_directory: ./docs/_build/html/
+          source-directory: ./docs/_build/html/
           destination-github-username: 'chrisjackr-naitive'
           destination-repository-name: 'Documentation'
           destination-repository-username: 'chrisjackr-naitive'
